@@ -73,7 +73,7 @@ class PWpage(QObject):
     @Slot()
     def op(self):
         dic = {}
-        key = ["name", "age", "datetime"]
+        key = ["name", "age", "datetime", "Weight 1"]
         for i in range(len(a)):
             #print(a[i])
             if(i == 0):
@@ -81,7 +81,9 @@ class PWpage(QObject):
             elif(i==1):
                 dic[key[i]] = a[i]
             elif(i==2):
-                dic[key[i]] = a[i]    
+                dic[key[i]] = a[i] 
+            elif(i==3):
+                dic[key[i]] = a[i]   
         collection.insert_one(dic)    
 
         a.clear()

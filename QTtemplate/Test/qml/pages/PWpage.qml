@@ -96,6 +96,7 @@ Item {
                 backend.getTextField(vno.text)
                 backend.getTextField(cno.text)
                 backend.getTextField(labelDate.text)
+                backend.getTextField(labelCom.text)
                 backend.op()
 
             }
