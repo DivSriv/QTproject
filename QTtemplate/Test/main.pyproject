@@ -1,0 +1,3 @@
+{
+    "files": ["qml/pages/Weightbtn.qml","qml/PWpage.qml","qml/pages/Form.qml","qml/controls/Homebtn.qml","qml/pages/NWpage.qml","qml/controls/NWbtn.qml","main.py","main.qml","func.py"]
+}
