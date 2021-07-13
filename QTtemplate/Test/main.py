@@ -17,7 +17,7 @@ client = pymongo.MongoClient("mongodb://localhost:27017/")
 print(client)
 db = client["div"]
 collection = db["mycol"]
-b = 0
+b = ""
 z = 0
 a = []
 z1baudrate = 2400
@@ -30,7 +30,7 @@ class PWpage(QObject):
         self.timer.timeout.connect(lambda: self.setTime())
         #self.timer.timeout.connect(lambda: self.setZ())
         self.timer.timeout.connect(lambda: self.setCom())
-        self.timer.start(100)   
+        self.timer.start(1000)   
         
     printTime = Signal(str)
     def setTime(self):
@@ -83,7 +83,8 @@ class PWpage(QObject):
             elif(i==2):
                 dic[key[i]] = a[i] 
             elif(i==3):
-                dic[key[i]] = int(a[i])   
+                weight1int = re.sub(re.compile(r'[^\d.]+'),'', a[i])
+                dic[key[i]] = float(weight1int)   
         collection.insert_one(dic)    
 
         a.clear()
