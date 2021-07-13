@@ -83,7 +83,7 @@ class PWpage(QObject):
             elif(i==2):
                 dic[key[i]] = a[i] 
             elif(i==3):
-                dic[key[i]] = a[i]   
+                dic[key[i]] = int(a[i])   
         collection.insert_one(dic)    
 
         a.clear()
