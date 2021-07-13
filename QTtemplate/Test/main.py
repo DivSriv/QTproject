@@ -8,7 +8,7 @@ from PySide2.QtGui import QGuiApplication
 from PySide2.QtQml import QQmlApplicationEngine
 from PySide2.QtCore import QObject, Slot, Signal, QTimer, QUrl, QProcess
 from PySide2.QtWidgets import QLabel
-#from PySide2.QtWidgets import QWidget
+from PySide2.QtWidgets import QWidget
 
 
 
