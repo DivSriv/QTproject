@@ -1,4 +1,4 @@
-# WeighBridge App
+# WeighBridge Desktop Application
 
 It Uses :
 
