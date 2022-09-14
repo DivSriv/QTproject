@@ -1,1 +1,1 @@
-# QTtemplate
+# Desktop Application using QT
