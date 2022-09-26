@@ -3,3 +3,4 @@
  - used Python
  - used QML
  - used MongoDB
+ - used Javascript functions in QML
