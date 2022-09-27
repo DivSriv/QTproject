@@ -5,3 +5,4 @@
  - used MongoDB
  - used Javascript functions in QML
  - It is a weighbrigde application
+ - We have also cleaned and filtered the data
