@@ -6,3 +6,4 @@
  - used Javascript functions in QML
  - It is a weighbridge application
  - We have also cleaned and filtered the data
+ - We also converted it to application
